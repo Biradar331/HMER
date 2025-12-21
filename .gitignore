@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Dataset & training files
+*.pkl
+*.h5
+*.pt
+*.pth
+off_image_test/
+off_image_train/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
