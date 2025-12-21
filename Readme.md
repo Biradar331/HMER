@@ -13,8 +13,3 @@
 ### To Work in Virtual ENV
 1. Go to Virtual ENvironment using cmd as venv\scripts\activate
 
-
-TO Do list for upcoming days to work on the project are
-1. Create graphs for testing and prediction accuracy along with other's result visualization like needed
-2. work on the interface or the aspect ration of the interface 
-3. Testing with the new picture created by us 
