@@ -27,7 +27,7 @@ def resize(w_box, h_box, pil_image):
     factor = min([1.0*w_box/w, 1.0*h_box/h])
     width = int(w*factor)
     height = int(h*factor)
-    return pil_image.resize((width, height), Image.ANTIALIAS)
+    return pil_image.resize((width, height), Image.Resampling.LANCZOS)
 
 # ---------------- Core Functions ---------------- #
 
